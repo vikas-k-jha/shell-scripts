@@ -62,6 +62,11 @@ else
 fi
 
 # END of the program
+# OUTPUT
+# $ sh list_file_name_having_same_contents.sh /Users/`whoami`/target_directory
+# (( file1 file3 file4)(file2 file6)(file5))
+#
+#  Here, in first array file1, file3, file4 having exact same content. Similarly other array set having same content. 
 
 
 ###################### strengths, weaknesses, boundary conditions ######################
