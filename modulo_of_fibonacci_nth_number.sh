@@ -38,7 +38,7 @@ _get_modulo_from_fibonacci_series () {
 # total number of parameter = 4
 # a [first element] 	- non-empty, number, 0<=a<=100000
 # b [second element] 	- non-empty, number, 0<=b<=100000
-# n [fibo length] 		- non-empty, number, 2<=n<=100000
+# n [fibo length] 	- non-empty, number, 2<=n<=100000
 # m [random number] 	- non-empty, number, 2<=m<=100000
 # a < b
 
