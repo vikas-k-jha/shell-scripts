@@ -62,25 +62,7 @@ else
 fi
 
 # END of the program
-# OUTPUT
+
+# TEST RUN
 # $ sh list_file_name_having_same_contents.sh /Users/`whoami`/target_directory
 # (( file1 file3 file4)(file2 file6)(file5))
-#
-#  Here, in first array file1, file3, file4 having exact same content. Similarly other array set having same content. 
-
-
-###################### strengths, weaknesses, boundary conditions ######################
-
-# strengths -
-#		> Bash interacts file system using native commands - it process files faster than other Scripts.
-# 	> Used checksum technique to avoid content matching explicitly 
-#		> Used local variable to store results to avoid files(I/O) manipulation as less as possible.
-#		> More numbers of identical files, faster response of this script.
-
-# weaknesses -
-#		> Lack of builtins API's like HashMap, Set etc
-
-
-# boundary conditions -
-#		> file name with special character - it may fail. Required further check to avoid such use case.
-#		> unwanted blank space, this script will fail as it compare exact match.
